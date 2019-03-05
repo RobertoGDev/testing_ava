@@ -1,0 +1,36 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "test:cover": "nyc ava --verbose",
+    "test:watch": "ava --verbose --watch",
+    "test:watch_cover": "nyc ava --verbose --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^1.2.1",
+    "babel-register": "^6.26.0",
+    "npm": "^6.8.0"
+  },
+  "devDependencies": {
+    "browser-env": "^3.2.6",
+    "nyc": "^13.3.0",
+    "sinon": "^7.2.7"
+  },
+  "ava": {
+    "require": [
+      "./helpers/setup-browser-env.js"
+    ]
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text",
+      "html"
+    ]
+  },
+  "description": ""
+}
