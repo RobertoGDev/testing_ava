@@ -4,10 +4,6 @@ First approaching to unit test for node develops and it builded in a basic struc
 This uses a framework called [AVA](https://github.com/avajs/ava) and offers coverage to tests with [istanbul](https://istanbul.js.org/) 
 
 ## Commands
-    "test": "ava",
-    "test:cover": "nyc ava --verbose",
-    "test:watch": "ava --verbose --watch",
-    "test:watch_cover": "nyc ava --verbose --watch"
 
 **npm test** Run test simply.
 
