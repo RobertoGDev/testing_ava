@@ -11,7 +11,7 @@ function multiplicacion(a, b) {
 }
 
 module.exports = {
-    suma: suma,
-    resta: resta,
-    multiplicacion: multiplicacion
+    suma,
+    resta,
+    multiplicacion
 }
