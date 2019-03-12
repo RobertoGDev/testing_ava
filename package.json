@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node proyectos/prueba_stubs/stubs-filesystem.js",
     "test": "jest",
     "test:cover": "jest --coverage",
     "test:watch": "jest --watch",
@@ -15,21 +16,8 @@
     "npm": "^6.8.0"
   },
   "devDependencies": {
-    "browser-env": "^3.2.6",
     "jest": "^24.4.0",
     "sinon": "^7.2.7"
-  },
-  "ava": {
-    "require": [
-      "./helpers/setup-browser-env.js"
-    ]
-  },
-  "nyc": {
-    "reporter": [
-      "lcov",
-      "text",
-      "html"
-    ]
   },
   "description": ""
 }
